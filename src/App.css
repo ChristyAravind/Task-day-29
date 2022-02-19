@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+.anime {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+.home {
+  background-image: url("https://wallpaperaccess.com/full/302312.jpg");
+  background-repeat: no-repeat;
+  min-height: 90vh;
+  background-size: cover;
+}
+.trailer {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.link {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: grey;
+  height: 80px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.input {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 500px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 470px;
+  height: 700px;
+  margin-top: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+* {
+  font-family: cursive;
+}
+h1,
+h2 {
+  width: 470px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.click {
+  display: flex;
+  justify-content: space-evenly;
 }
